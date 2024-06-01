@@ -1,0 +1,168 @@
+{
+  "layerInfos": [
+    {
+      "name": "Infrastruktur Menara Telekomunikasi",
+      "id": "65484a69aef1407cbdd97b8161178a31",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Map_Telekomunikasi_Fix_WFL1/FeatureServer/0",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "NAMOBJ",
+            "alias": "Nama Objek",
+            "show": true
+          },
+          {
+            "name": "STSJRN",
+            "alias": "Status Jaringan Infrastruktur",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "SBDATA",
+            "alias": "Sumber Data",
+            "show": true
+          }
+        ]
+      },
+      "show": null,
+      "showAttachments": false,
+      "sortField": "NAMOBJ",
+      "isDescending": false
+    },
+    {
+      "name": "Jaringan Transportasi",
+      "id": "3e7fabe18f4b44f7b861bb33f856aa82",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Map_Telekomunikasi_Fix_WFL1/FeatureServer/1",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "NAMOBJ",
+            "alias": "Nama Objek",
+            "show": true
+          },
+          {
+            "name": "STSJRN",
+            "alias": "Status Jaringan Infrastruktur",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "SBDATA",
+            "alias": "Sumber Data",
+            "show": true
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          }
+        ]
+      },
+      "show": null,
+      "showAttachments": false,
+      "sortField": "NAMOBJ",
+      "isDescending": false
+    },
+    {
+      "name": "Batas Wilayah Perencanaan Perkotaan Wonosari",
+      "id": "5232549faa7440adb528615579db16f0",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Map_Telekomunikasi_Fix_WFL1/FeatureServer/2",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "WADMPR",
+            "alias": "Wilayah Administrasi Provinsi",
+            "show": true
+          },
+          {
+            "name": "WADMKK",
+            "alias": "Wilayah Administrasi Kabupaten/Kota",
+            "show": true
+          },
+          {
+            "name": "WADMKC",
+            "alias": "Wilayah Administrasi Kecamatan",
+            "show": true
+          },
+          {
+            "name": "WADMKD",
+            "alias": "Wilayah Administrasi Kelurahan/Desa",
+            "show": true
+          },
+          {
+            "name": "Shape__Area",
+            "alias": "Shape__Area",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          }
+        ]
+      },
+      "show": null,
+      "showAttachments": false,
+      "sortField": "WADMKC",
+      "isDescending": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": false,
+  "initiallyExpand": false,
+  "filterByMapExtent": true,
+  "allowTextSelection": true,
+  "syncWithLayers": true
+}
